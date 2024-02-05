@@ -7,8 +7,8 @@ import { faRightFromBracket } from '@fortawesome/free-solid-svg-icons';
   standalone: true,
   imports: [FontAwesomeModule],
   templateUrl: './footer.component.html',
-  styleUrl: './footer.component.scss'
+  styleUrl: './footer.component.scss',
 })
 export class FooterComponent {
-  faRightFromBracket = faRightFromBracket;
+  /**向右箭頭ICON*/ faRightFromBracket = faRightFromBracket;
 }
